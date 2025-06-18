@@ -1,33 +1,32 @@
 .legal-header {
-  background-color:#e2e2e2;
+  background-color: #e2e2e2;
   padding: 30px;
   margin-top: 60px;
   width: 100%;
   position: fixed;
-  top:0px;
+  top: 0px;
   z-index: 10;
-  }
-
-  .legal-header h1 {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-main {
 }
+
+.legal-header h1 {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+main {}
 
 section {
   display: flex;
   gap: 30px;
-  position: relative; 
-  top: 215px; 
+  position: relative;
+  top: 215px;
   border-bottom: 1px solid grey;
   padding: 30px;
   max-width: 900px;
   margin: 0 auto;
   color: white;
-  }
+}
 
 .section-label {
   width: 100%;
@@ -36,15 +35,15 @@ section {
   padding: 10px 16px;
   position: sticky;
   top: 180px;
-  }
+}
 
 .document-content {
- display: flex;
+  display: flex;
   flex-direction: column;
   gap: 30px;
   position: relative;
-  margin-bottom: 65px; 
-  }
+  margin-bottom: 65px;
+}
 
 .document-content p {
   line-height: 28px;
@@ -57,7 +56,7 @@ section {
 
 .document-content li {
   line-height: 28px;
-  }
+}
 
 footer {
   display: flex;
